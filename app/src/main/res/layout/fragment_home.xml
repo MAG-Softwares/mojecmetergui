@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.magshehu.mojecmetergui.fragment.HomeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/iron"
+        android:text="ENERGY LEFT:"
+        android:textSize="20sp"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@color/iron"
+        android:text="0.0kWh"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/aluminum"
+        android:text="LAST RECHARGE:"
+        android:textSize="20sp"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@color/aluminum"
+        android:text="0.0kW - 12/08"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#757575"
+        android:text="AVERAGE ENERGY USED PER HOUR:"
+        android:textSize="20sp"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="#757575"
+        android:text="0.0kW"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"/>
+</LinearLayout>

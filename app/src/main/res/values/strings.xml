@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Mojec Meter GUI</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_led_control">ledControl</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Usage History</string>
+    <string name="nav_movies">Credit Recharge</string>
+    <string name="nav_information">Meter Information</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Usage History</item>
+        <item>Credit Recharge</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="pair_device">Pair Another UIU</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Enter Meter Number</string>
+    <string name="prompt_password">Enter PIN Code</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">The meter number does not match</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">The PIN code is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string-array name="attendance_dates">
+        <item>This Month</item>
+        <item>Last Month</item>
+        <item>Last 2 Months</item>
+        <item>Last 3 Months</item>
+        <item>Last 4 Months</item>
+        <item>Last 5 Months</item>
+        <item>Last 6 Months</item>
+    </string-array>
+
+
+</resources>
